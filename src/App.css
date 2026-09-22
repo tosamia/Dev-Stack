@@ -1464,3 +1464,9 @@
     margin-top: 20px;
   }
 }
+/* Final mobile card spacing */
+@media (max-width: 650px) {
+  .tech-card {
+    margin-bottom: 16px;
+  }
+}
