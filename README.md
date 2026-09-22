@@ -67,3 +67,23 @@ When technologies are added, it shows the selected technologies instead.
 A parent passes data to a child using props.
 
 A child can send information back to the parent by calling a function that the parent passes to the child as a prop.
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── TechnologyCard.jsx
+│   ├── TechnologyList.jsx
+│   ├── Stack.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+public/
+└── data/
+    └── technologies.json
